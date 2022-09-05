@@ -1,0 +1,69 @@
+object FormTable: TFormTable
+  Left = 0
+  Top = 0
+  Caption = 'FormTable'
+  ClientHeight = 661
+  ClientWidth = 1084
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Visible = True
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 600
+    Top = 140
+    Width = 3
+    Height = 13
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 1084
+    Height = 100
+    Align = alTop
+    Color = clMedGray
+    ParentBackground = False
+    TabOrder = 0
+    object GaugePower: TGauge
+      Left = 832
+      Top = 24
+      Width = 217
+      Height = 57
+      BackColor = clSilver
+      BorderStyle = bsNone
+      Color = clBlack
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Verdana'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+      Progress = 0
+    end
+    object ButtonStart: TButton
+      Left = 672
+      Top = 38
+      Width = 75
+      Height = 25
+      Caption = 'Start'
+      TabOrder = 0
+      OnClick = ButtonStartClick
+    end
+  end
+  object TimerB: TTimer
+    Enabled = False
+    Interval = 10
+    OnTimer = TimerBTimer
+    Left = 768
+    Top = 40
+  end
+end

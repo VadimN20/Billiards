@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.595,D:\с++ labs\Project1PCH1.h=D:\с++ labs\BillProject.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.669,=D:\с++ labs\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.221,D:\с++ labs\Unit1.h=D:\с++ labs\Billiard.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.221,D:\с++ labs\Unit1.dfm=D:\с++ labs\Billiard.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.532,D:\с++ labs\Project1.cbproj=D:\с++ labs\BilliardGame.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.221,D:\с++ labs\Unit1.cpp=D:\с++ labs\Billiard.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.710,=D:\с++ labs\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
